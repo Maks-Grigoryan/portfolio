@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maksim Grigoryan — ML / Computer Vision Engineer</title>
+<meta name="description" content="Portfolio of Maksim Grigoryan, Machine Learning / Computer Vision Engineer. Deep Learning, Edge AI, Signal Processing.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="bg-grid" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="#top"><span class="logo-mark">MG</span><span class="logo-text">maks.grigoryan</span></a>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#expertise">Expertise</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <span class="status"><span class="status-dot"></span>open to work</span>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero container">
+    <p class="terminal-line"><span class="prompt">$</span> <span id="typed"></span><span class="caret"></span></p>
+    <h1>Maksim Grigoryan</h1>
+    <p class="role">Machine Learning / Computer Vision Engineer</p>
+    <p class="role-sub">Deep Learning &nbsp;·&nbsp; Edge AI &nbsp;·&nbsp; Signal Processing</p>
+    <p class="lede">I build and ship deep-learning perception systems for video surveillance — detection, tracking, face recognition, ANPR — and optimize them to run in real time on edge hardware.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#contact">Get in touch</a>
+      <a class="btn btn-ghost" href="https://github.com/Maks-Grigoryan" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <dl class="stats">
+      <div class="stat"><dt>Production CV</dt><dd data-count="2">0+</dd><span>yrs at Hikvision</span></div>
+      <div class="stat"><dt>Research</dt><dd data-count="3">0+</dd><span>yrs optical systems lab</span></div>
+      <div class="stat"><dt>NVIDIA certs</dt><dd data-count="2">0</dd><span>multimodal · RAG agents</span></div>
+      <div class="stat"><dt>Awards</dt><dd data-count="4">0</dd><span>research &amp; innovation</span></div>
+    </dl>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section container reveal">
+    <p class="section-label">~/about</p>
+    <h2>From photons to production</h2>
+    <div class="two-col">
+      <p>Computer Vision engineer with production experience at Hikvision, covering the full lifecycle: dataset design and annotation, training and evaluation, quantization and TensorRT/ONNX deployment, and monitoring in the field.</p>
+      <p>Backed by a research background in radiophysics, optics and signal processing — a physics-level understanding of the sensors and noise behind the pixels, which pays off in low-light, motion-blur and hardware-constrained scenarios. Recently certified by NVIDIA in multimodal and RAG-based LLM agents, now applying VLM/LLM techniques to vision workflows.</p>
+    </div>
+    <ul class="meta-list">
+      <li><span>Location</span>Yerevan, Armenia</li>
+      <li><span>Languages</span>Armenian · Russian · English</li>
+      <li><span>Education</span>B.Sc. Radiophysics, YSU</li>
+    </ul>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section container reveal">
+    <p class="section-label">~/experience</p>
+    <h2>Experience</h2>
+
+    <article class="job">
+      <div class="job-head">
+        <div><h3>Hikvision</h3><p class="job-title">Machine Learning / Computer Vision Engineer</p></div>
+        <p class="job-period">2025 — Present</p>
+      </div>
+      <ul class="job-list">
+        <li><strong>Detection &amp; tracking.</strong> Fine-tuned YOLO-family and anchor-free detectors plus multi-object tracking with re-identification for people and vehicle analytics — counting, zone intrusion, loitering, trajectory analysis on live streams.</li>
+        <li><strong>Face recognition &amp; ANPR.</strong> Face detection, alignment, embedding-based recognition and license-plate modules; hardened for low light, motion blur, occlusion and extreme angles; tuned FAR/FRR thresholds.</li>
+        <li><strong>Optimization &amp; deployment.</strong> ONNX + TensorRT export with INT8/FP16 quantization and pruning — real-time multi-stream inference on embedded and edge devices.</li>
+        <li><strong>Data &amp; training pipelines.</strong> End-to-end collection, cleaning, annotation QA, augmentation and retraining; versioned experiments and dashboards (mAP, precision/recall, ID-switch) driving iteration.</li>
+        <li><strong>Engineering &amp; field loop.</strong> Production Python/C++ inference services (RTSP, GStreamer/FFmpeg, OpenCV); turned deployment failures into dataset and post-processing fixes.</li>
+      </ul>
+      <ul class="tags"><li>YOLO</li><li>Tracking + ReID</li><li>TensorRT</li><li>ONNX</li><li>INT8 / FP16</li><li>OpenCV</li><li>C++</li></ul>
+    </article>
+
+    <article class="job">
+      <div class="job-head">
+        <div><h3>Yerevan State University — Research Lab</h3><p class="job-title">Research Engineer · Optical Vibrometer Project</p></div>
+        <p class="job-period">2023 — Present</p>
+      </div>
+      <ul class="job-list">
+        <li><strong>Optical vibrometry.</strong> Speckle interferometry and optical system design for non-contact precision vibration measurement; authored a research paper on the principles.</li>
+        <li><strong>Signal &amp; image processing.</strong> FFT/STFT pipelines and optical-flow / speckle-pattern analysis in Python for real-time measurement interpretation.</li>
+        <li><strong>Hardware.</strong> Custom PCBs (KiCad) and microcontroller-based acquisition electronics for sensor integration.</li>
+        <li><strong>Tooling &amp; teaching.</strong> Automation utilities, PyQt interfaces, Telegram monitoring bots; taught Python for scientific applications and mentored juniors.</li>
+      </ul>
+      <ul class="tags"><li>Interferometry</li><li>FFT / STFT</li><li>KiCad</li><li>PyQt</li><li>Embedded</li></ul>
+    </article>
+  </section>
+
+  <!-- EXPERTISE -->
+  <section id="expertise" class="section container reveal">
+    <p class="section-label">~/expertise</p>
+    <h2>Technical expertise</h2>
+    <div class="cards">
+      <div class="card"><h3>Computer Vision</h3><p>Object detection (YOLO, SSD, Faster R-CNN, DETR), multi-object tracking &amp; ReID, face recognition, ANPR/OCR, segmentation, optical flow, camera calibration, video analytics.</p></div>
+      <div class="card"><h3>Deep Learning</h3><p>PyTorch, TensorFlow, CNNs, Vision Transformers, transfer learning, metric / contrastive learning, distillation, augmentation, tuning, evaluation.</p></div>
+      <div class="card"><h3>Deployment &amp; MLOps</h3><p>ONNX, TensorRT, INT8/FP16 quantization, pruning, CUDA basics, edge inference, Docker, experiment tracking, CI for model releases.</p></div>
+      <div class="card"><h3>LLM / Multimodal</h3><p>Vision-Language Models, RAG pipelines, embeddings &amp; vector search, AI agents, prompt engineering, LangChain-style orchestration.</p></div>
+      <div class="card"><h3>Programming</h3><p>Python (NumPy, SciPy, OpenCV, Pandas, Matplotlib, PyQt), C, C++, MATLAB, Bash, Linux, Arduino, Telegram Bot API.</p></div>
+      <div class="card"><h3>Signal, RF &amp; Hardware</h3><p>FFT/STFT, filtering, vibration &amp; time-series analysis, RF analysis, laser interferometry, PCB design (KiCad), microcontrollers, real-time measurement.</p></div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications" class="section container reveal">
+    <p class="section-label">~/certifications</p>
+    <h2>Certifications</h2>
+    <div class="cert-list">
+      <div class="cert">
+        <div><h3>NVIDIA Deep Learning Institute</h3><p>Building AI Agents with Multimodal Models</p></div>
+        <p class="cert-meta">Aug 2026 · ID KlgEk9buSQeCKDfwquVmmg</p>
+      </div>
+      <div class="cert">
+        <div><h3>NVIDIA Deep Learning Institute</h3><p>Building RAG Agents with LLMs</p></div>
+        <p class="cert-meta">Aug 2026 · ID P67yT3xAQyy7YGNJJK-obA</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements" class="section container reveal">
+    <p class="section-label">~/achievements</p>
+    <h2>Achievements</h2>
+    <ul class="ach-list">
+      <li><span>Paper</span>“Speckle Interferometry for Non-Contact Vibration Measurement”</li>
+      <li><span>2025</span>Winner, “100 Ideas for CIS” — IT category, Armenia representative</li>
+      <li><span>2024</span>1st place, YSU Innovation Competition — optical measurement systems</li>
+      <li><span>2023</span>Winner, Armenian Inter-School Science Festival; repeated physics &amp; programming competition wins</li>
+    </ul>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section container reveal">
+    <p class="section-label">~/contact</p>
+    <h2>Contact</h2>
+    <p class="contact-lede">Open to ML / Computer Vision roles and collaborations on perception and edge AI.</p>
+    <div class="contact-grid">
+      <a href="mailto:maksgrigoryan005@gmail.com">maksgrigoryan005@gmail.com</a>
+      <a href="tel:+37455325325">+374 55 325 325</a>
+      <a href="https://github.com/Maks-Grigoryan" target="_blank" rel="noopener">github.com/Maks-Grigoryan</a>
+      <span>Yerevan, Armenia</span>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>© 2026 Maksim Grigoryan</span>
+    <span class="mono">built with precision · no templates harmed</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
