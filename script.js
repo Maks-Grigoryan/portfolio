@@ -1,12 +1,22 @@
-// typing effect
-const text = "whoami --cv-engineer";
+// rotating specializations
+const phrases = ["cv_engineer", "signal_processing", "radiophysics"];
 const el = document.getElementById("typed");
-let i = 0;
+let pi = 0, ci = 0, deleting = false;
 (function type() {
-  if (i <= text.length) {
-    el.textContent = text.slice(0, i++);
-    setTimeout(type, 55);
+  const word = phrases[pi];
+  el.textContent = word.slice(0, ci);
+  let delay = deleting ? 35 : 70;
+  if (!deleting && ci === word.length) {
+    delay = 1600;
+    deleting = true;
+  } else if (deleting && ci === 0) {
+    deleting = false;
+    pi = (pi + 1) % phrases.length;
+    delay = 400;
+  } else {
+    ci += deleting ? -1 : 1;
   }
+  setTimeout(type, delay);
 })();
 
 // animated counters
