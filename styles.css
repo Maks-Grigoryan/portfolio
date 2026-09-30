@@ -63,10 +63,10 @@ body {
 
 /* hero */
 .hero { padding: 96px 24px 64px; }
-.terminal-line { font-family: var(--mono); font-size: 14px; color: var(--muted); margin-bottom: 20px; min-height: 22px; }
-.prompt { color: var(--accent); }
-.caret { display: inline-block; width: 8px; height: 16px; background: var(--accent); vertical-align: -3px; animation: blink 1s steps(1) infinite; }
-@keyframes blink { 50% { opacity: 0; } }
+.eyebrow {
+  font-family: var(--mono); font-size: 12px; letter-spacing: 0.22em;
+  text-transform: uppercase; color: var(--accent); margin-bottom: 20px;
+}
 
 .hero h1 { font-size: clamp(40px, 7vw, 68px); font-weight: 800; letter-spacing: -0.03em; line-height: 1.05; }
 .role { font-size: clamp(18px, 3vw, 24px); font-weight: 600; color: var(--accent); margin-top: 12px; }
